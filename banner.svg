@@ -1,0 +1,42 @@
+<svg width="1280" height="280" viewBox="0 0 1280 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">docs.ubports.com banner</title>
+  <desc id="desc">Cyber green project banner for docs.ubports.com</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.55" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#071A12"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="90" y1="70" x2="1120" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#A3E635"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#173529" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="280" rx="22" fill="url(#bg)"/>
+  <rect width="1280" height="280" rx="22" fill="url(#grid)" opacity="0.7"/>
+  <path d="M0 230C135 205 249 182 401 184C549 186 638 118 768 118C912 118 994 201 1280 156V280H0V230Z" fill="#07130E" opacity="0.95"/>
+  <g opacity="0.5">
+    <circle cx="1070" cy="92" r="68" stroke="#1F9D55" stroke-width="1.2"/>
+    <circle cx="1070" cy="92" r="94" stroke="#1F9D55" stroke-width="1"/>
+    <path d="M1070 0V184M978 92H1162" stroke="#1F9D55" stroke-width="1"/>
+  </g>
+  <g filter="url(#glow)">
+    <text x="84" y="116" fill="url(#stroke)" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="46" font-weight="700">docs.ubports.com</text>
+    <text x="88" y="156" fill="#D1FAE5" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="18">&gt; Documentation  //  Sphinx  //  Translations</text>
+  </g>
+  <rect x="84" y="196" width="492" height="30" rx="15" fill="#081711" stroke="#1F9D55"/>
+  <circle cx="110" cy="211" r="5" fill="#22C55E"/>
+  <text x="126" y="216" fill="#D1FAE5" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="14">status: online // theme: cyber terminal // github: GradusXaker</text>
+  <text x="936" y="210" fill="#22C55E" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="15">$ render banner --theme neon-green</text>
+  <text x="936" y="234" fill="#A7F3D0" font-family="'JetBrains Mono', 'Consolas', monospace" font-size="15">done: visuals synced</text>
+</svg>

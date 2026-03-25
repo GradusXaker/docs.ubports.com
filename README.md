@@ -1,4 +1,6 @@
 <div align="center">
+  <img src="./banner.svg" alt="docs.ubports.com banner" width="100%" />
+
   <h1>docs.ubports.com</h1>
   <p><strong>Документация UBports в едином рабочем репозитории.</strong> Исходники сайта, сборка, переводы и документационный workflow.</p>
 
