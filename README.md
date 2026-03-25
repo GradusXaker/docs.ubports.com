@@ -1,6 +1,24 @@
-## Сайт документации UBports
+<div align="center">
+  <h1>docs.ubports.com</h1>
+  <p><strong>Документация UBports в едином рабочем репозитории.</strong> Исходники сайта, сборка, переводы и документационный workflow.</p>
 
-Этот репозиторий содержит исходники сайта документации UBports, который публикуется по адресу [docs.ubports.com](https://docs.ubports.com).
+  <p>
+    <img src="https://img.shields.io/badge/Documentation-UBports-111827?style=for-the-badge&logo=readthedocs&logoColor=22C55E" alt="Documentation UBports" />
+    <img src="https://img.shields.io/badge/Python-Sphinx-111827?style=for-the-badge&logo=python&logoColor=22C55E" alt="Python Sphinx" />
+    <img src="https://img.shields.io/badge/translations-po%20files-111827?style=for-the-badge&logoColor=22C55E" alt="Translations" />
+    <img src="https://img.shields.io/badge/site-docs.ubports.com-22C55E?style=for-the-badge&labelColor=0B1220" alt="Site" />
+  </p>
+</div>
+
+```text
+> repo: docs.ubports.com
+> pipeline: build docs / update translations / publish site
+> role: source of truth for UBports documentation
+```
+
+## обзор
+
+Этот репозиторий нужен для сборки и сопровождения сайта документации `UBports`, включая локальную сборку, обновление переводов и документированный процесс внесения изменений.
 
 ### Как вносить изменения
 
